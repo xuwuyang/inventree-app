@@ -35,4 +35,4 @@ User documentation for the InvenTree mobile app can be found [within the InvenTr
 
 ## Developer Documentation
 
-Refer to the [build instructions](BUILDING.md) for information on how to build the app from source.
+Refer to the [build instructions](BUILDING.md) for information on how to build the app from  source.

@@ -57,3 +57,9 @@ jobs:
         fvm install
         fvm flutter pub get
         fvm flutter build apk --debug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: inventree-app-debug
+        path: build/app/outputs/flutter-apk/*.apk
